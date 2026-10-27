@@ -1,0 +1,84 @@
+
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f5fa;
+    color: #263238;
+}
+
+/* Encabezado */
+header {
+    background-color: #4338ca;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Contenedor principal */
+main {
+    padding: 30px;
+}
+
+/* Tarjeta del curso */
+.curso {
+    width: 350px;
+    background-color: white;
+
+    /* Modelo de caja */
+    padding: 25px;
+    border: 3px solid #4338ca;
+    margin: 30px auto;
+
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #00000020;
+}
+
+/* Título de la tarjeta */
+.curso h2 {
+    color: #4338ca;
+    margin-top: 0;
+}
+
+/* Descripción */
+.curso p {
+    line-height: 1.6;
+}
+
+/* Botón */
+button {
+    background-color: #4338ca;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Efecto del botón */
+button:hover {
+    background-color: #312e81;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e0e7ff;
+}
+
+/* Adaptación para celulares */
+@media (max-width: 600px) {
+    .curso {
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
